@@ -1,0 +1,28 @@
+{
+  "name": "assignment1",
+  "version": "1.0.0",
+  "description": "Hila and Daniel assigment1-Eliav",
+  "main": "app.js",
+  "scripts": {
+    "dev": "nodemon app.js",
+    "start": "node app.js",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/danielperetz22/Assigment1.git"
+  },
+  "author": "Hila and Daniel",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/danielperetz22/Assigment1/issues"
+  },
+  "homepage": "https://github.com/danielperetz22/Assigment1#readme",
+  "dependencies": {
+    "body-parser": "^1.20.3",
+    "dotenv": "^16.4.5",
+    "express": "^4.21.1",
+    "mongoose": "^8.8.1",
+    "nodemon": "^3.1.7"
+  }
+}
