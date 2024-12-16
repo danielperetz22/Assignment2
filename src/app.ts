@@ -1,8 +1,12 @@
-import initApp from "./server";
+import app from './server';
+import dotenv from 'dotenv';
+
+
+dotenv.config();
 
 const port = process.env.PORT;
-initApp().then((app) => {
-  app.listen(port, () => {
-    console.log(`Server is running on http://localhost:${port}`);
-  });
+
+
+app.listen(port, () => {
+  console.log(`Server is running on http://localhost:${port}`);
 });
